@@ -1,4 +1,5 @@
-package ejercicios_java.weas;
+package weas;
+
 public class Temperature {
     
     // 5. Crea una clase Temperature con el atributo privado celsius. El método setCelsius(double celsius) solo debe aceptar valores entre -100 y 100.

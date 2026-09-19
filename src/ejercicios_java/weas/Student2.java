@@ -1,4 +1,5 @@
-package ejercicios_java.weas;
+package weas;
+
 public class Student2 {
     
     // 9. Crea una clase Student con el atributo privado grade. Agrega los métodos setGrade(int grade) y isPassed() que retorne true si la nota es mayor o igual a 60.

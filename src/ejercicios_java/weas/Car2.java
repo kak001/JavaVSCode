@@ -1,4 +1,5 @@
-package ejercicios_java.weas;
+package weas;
+
 public class Car2 {
     
     // 10. Crea una clase Car con el atributo privado speed. Agrega los métodos accelerate(int amount) que aumente la velocidad (máximo 120) y brake(int amount) que reduzca la velocidad (mínimo 0).

@@ -1,4 +1,4 @@
-package ejercicios_java.abstraction_ejercicios;
+package abstraction_ejercicios;
 
 public class Circle2 implements Drawable {
     @Override

@@ -1,4 +1,5 @@
-package ejercicios_java.weas;
+package weas;
+
 public class Product2 {
     
     // 2. Crea una clase Product con el atributo privado price. Añade el método setPrice(double price) que solo permita precios mayores a 0.

@@ -1,4 +1,5 @@
-package ejercicios_java.weas;
+package weas;
+
 public class Book {
 
     String title;

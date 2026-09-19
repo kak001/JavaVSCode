@@ -1,4 +1,5 @@
-package ejercicios_java.exception_ejercicios;
+package exception_ejercicios;
+
 public class PasswordChecker {
     // Metodos
     public void passwordChecker(String pass) throws CustomException {

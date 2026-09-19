@@ -1,4 +1,5 @@
-package ejercicios_java.weas;
+package weas;
+
 import java.util.ArrayList;
 
 public class ClassesEjercicios {

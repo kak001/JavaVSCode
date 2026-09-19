@@ -1,4 +1,5 @@
-package ejercicios_java.weas;
+package weas;
+
 public class BankAccount2 {
     
     // 3. Crea una clase BankAccount con el atributo privado balance. Implementa los métodos deposit(double amount) y withdraw(double amount) que validen las cantidades correctamente.

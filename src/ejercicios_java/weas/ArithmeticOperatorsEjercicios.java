@@ -1,4 +1,5 @@
-package ejercicios_java.weas;
+package weas;
+
 public class ArithmeticOperatorsEjercicios {
     public static void main(String[] args) {
 

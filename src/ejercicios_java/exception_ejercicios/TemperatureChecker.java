@@ -1,4 +1,5 @@
-package ejercicios_java.exception_ejercicios;
+package exception_ejercicios;
+
 public class TemperatureChecker {
     // Metodos
     public void temperatureChecker(double temp) throws CustomException {

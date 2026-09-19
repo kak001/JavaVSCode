@@ -1,4 +1,5 @@
-package ejercicios_java.weas;
+package weas;
+
 public class Person2 {
 
     // 1. Crea una clase Person con atributos privados name y age. Usa los métodos getName(), setName(), getAge() y setAge() para asignar y mostrar valores desde otra clase.

@@ -1,4 +1,5 @@
-package ejercicios_java.weas;
+package weas;
+
 public class Rectangle2 {
     
     // 8. Crea una clase Rectangle con los atributos privados width y height. Agrega setters y el método calculateArea() que devuelva el resultado de width * height.

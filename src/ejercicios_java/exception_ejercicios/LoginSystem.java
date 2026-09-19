@@ -1,4 +1,5 @@
-package ejercicios_java.exception_ejercicios;
+package exception_ejercicios;
+
 public class LoginSystem {
     // Metodos
     public void userCheck(String user, String target) throws LoginFailedException {

@@ -1,4 +1,5 @@
-package ejercicios_java.weas;
+package weas;
+
 public class Employee {
     
     // 7. Crea una clase Employee con el atributo privado salary. Agrega el método raiseSalary(double percent) que solo permita aumentos positivos.

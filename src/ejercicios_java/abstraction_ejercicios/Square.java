@@ -1,4 +1,4 @@
-package ejercicios_java.abstraction_ejercicios;
+package abstraction_ejercicios;
 
 public class Square implements Drawable {
     @Override

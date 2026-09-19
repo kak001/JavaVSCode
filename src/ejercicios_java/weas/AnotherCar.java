@@ -1,4 +1,5 @@
-package ejercicios_java.weas;
+package weas;
+
 public class AnotherCar {
     private String brand;
     private String model;

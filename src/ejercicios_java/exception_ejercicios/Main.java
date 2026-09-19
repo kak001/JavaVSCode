@@ -1,4 +1,5 @@
-package ejercicios_java.exception_ejercicios;
+package exception_ejercicios;
+
 public class Main {
     public static void main(String[] args) {
         // Ejercicios 

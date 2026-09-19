@@ -1,4 +1,5 @@
-package ejercicios_java.weas;
+package weas;
+
 public class User {
     
     // 6. Crea una clase User con los atributos privados username y password. Implementa los métodos setUsername(String username), setPassword(String password) y checkPassword(String inputPassword) que compare contraseñas.

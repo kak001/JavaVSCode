@@ -1,4 +1,5 @@
-package ejercicios_java.weas;
+package weas;
+
 //Explicacion de cada linea de codigo en Java
 
 public class HelloWorldEjercicios { //En esta linea le damos un nombre a la clase y su privacidad cual es publica 
