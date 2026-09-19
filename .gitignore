@@ -1,0 +1,38 @@
+# Compilados
+*.class
+target/
+build/
+out/
+bin/
+
+# Empaquetados
+*.jar
+*.war
+*.ear
+
+# Archivos de IDEs
+.idea/
+*.iml
+.vscode/
+.settings/
+.classpath
+.project
+.metadata/
+
+# Maven
+.mvn/
+mvnw
+mvnw.cmd
+
+# Gradle
+.gradle/
+gradlew
+gradlew.bat
+
+# Logs y temporales
+*.log
+*.tmp
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
