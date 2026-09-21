@@ -1,9 +1,8 @@
 package clases_java.c08_oop.inheritance.inheritance_ejercicios;
 
-public class Cat extends Animal {
+public class AnotherAnimal {
     // Metodo
-    @Override
     public void makeSound() {
-        System.out.println("¡Meow!");
+        System.out.println("Un animal esta haciendo un sonido generico.");
     }
 }
