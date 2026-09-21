@@ -5,16 +5,18 @@ public class Rectangle {
     public int calculateArea(int width, int height) {
         if (width <= 0 || height <= 0) {
             System.out.println("Error: Datos de medida invalidos.");
+            return -1;
+        } else {
+            return width * height;
         }
-        int rectangleArea = width * height;
-        return rectangleArea;
     }
 
     public int calculatePerimeter(int width, int height) {
         if (width <= 0 || height <= 0) {
             System.out.println("Error: Datos de medida invalidos.");
+            return -1;
+        } else {
+            return 2 * (width + height);
         }
-        int rectanglePerimeter = width * height;
-        return rectanglePerimeter;
     }
 }

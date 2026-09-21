@@ -21,10 +21,6 @@ public class Student {
 
     // Metodo
     public boolean checkScore(int score) {
-        if (score >= 60 && score <= 100) {
-            return true;
-        } else {
-            return false;
-        }
+        return score >= 60 && score <= 100;
     }
 }
