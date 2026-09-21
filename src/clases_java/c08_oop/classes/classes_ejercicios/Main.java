@@ -1,5 +1,8 @@
 package clases_java.c08_oop.classes.classes_ejercicios;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+
 public class Main {
     public static void main(String[] args) {
         // Ejercicios
@@ -49,5 +52,32 @@ public class Main {
         rectangle.calculatePerimeter(4, -2);
         System.out.println("Perimetro del rectangulo: " + rectangle.calculatePerimeter(4, 2));
         System.out.println();
+
+        // 8. Crea una clase Worker que reciba nombre y salario, y un método para mostrar su salario.
+        var worker = new Worker("kako", 2500000);
+
+        System.out.println("Nombre del trabajador: " + worker.getName() + " | Salario: $" + worker.getSalary() + " CLP.");
+        System.out.println();
+
+        // 9. Crea varios objetos Person y guárdalos en un ArrayList.
+        var personList = new ArrayList<Person>(Arrays.asList(
+            new Person("kako", 20),
+            new Person("benja", 18),
+            new Person("david", 19),
+            new Person("juan", 21)
+        ));
+
+        int index = 0;
+        for (Person person : personList) {
+            index++;
+            System.out.println("Persona " + index + ": Nombre: " + person.getName() + " | Edad: " + person.getAge() + " años.");
+        }
+        System.out.println();
+
+        // 10. Crea una clase Product y un método que aplique un descuento sobre su precio.
+        var product = new Product(19990);
+
+        System.out.println("Precio original: $" + product.getPrice() + " CLP.");
+        System.out.println("Precio con descuento del 25%: $" + product.discount() + " CLP.");
     }
 }
