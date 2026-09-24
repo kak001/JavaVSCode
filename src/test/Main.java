@@ -1,9 +1,7 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("ola");
+        // Pokemones
+        var tipoAgua = new TipoAgua("ola", 12, 34);
 
-        Volador v2 = new Pez();
-
-        v2.fly();
     }
 }
