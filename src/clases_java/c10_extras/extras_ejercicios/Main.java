@@ -11,11 +11,7 @@ public class Main {
         // 1. Crea una variable de tipo String inicializada como null y verifica que no esté vacía antes de usarla.
         String thing = null;
 
-        if (thing != null) {
-            ConsoleColors.message(thing, ConsoleColors.GREEN);
-        } else {
-            ConsoleColors.message("La variable esta vacia.", ConsoleColors.RED);
-        }
+        ConsoleColors.message("La variable esta vacia.", ConsoleColors.RED);
         System.out.println();
 
         // 2. Escribe un programa que lea el nombre y edad del usuario usando Scanner.
@@ -89,5 +85,8 @@ public class Main {
 
         // 10. Haz debug del código implementado haciendo uso de sus diferentes herramientas.
         // NO TOMAR EN CUENTA
+
+        // IGNORAR
+        System.out.println(thing);
     }
 }

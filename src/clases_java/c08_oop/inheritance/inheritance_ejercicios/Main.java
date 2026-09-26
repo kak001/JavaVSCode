@@ -94,5 +94,9 @@ public class Main {
         for (AnotherAnimal animal : animalList) {
             animal.makeSound();
         }
+
+        // IGNORAR
+        System.out.println(device);
+        System.out.println(phone);
     }
 }
