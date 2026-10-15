@@ -82,5 +82,8 @@ public class Main {
          } finally {
              ConsoleColors.message("Fin del Programa.", ConsoleColors.BRIGHT_WHITE);
          }
+
+         // IGNORAR
+         System.out.println(salmon2);
      }
 }

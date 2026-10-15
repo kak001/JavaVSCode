@@ -3,16 +3,12 @@ package ev1_poo;
 public class AudioLibro extends Material {
     // Atributo
     private int duracionMinutos;
-    private double costoPrestamo;
-
     // Constructor
     public  AudioLibro(String titulo, int anioPublicacion, int copiasDisponibles, int duracionMinutos) {
         super(titulo, anioPublicacion, copiasDisponibles);
         if (duracionMinutos <= 0) throw new IllegalArgumentException("La duración es negativa o igual a cero.");
         if (duracionMinutos > 300) {
-            this.costoPrestamo = 2800 * 1.15;
         } else {
-            this.costoPrestamo = 2800;
         }
         this.duracionMinutos = duracionMinutos;
     }

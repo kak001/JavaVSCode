@@ -46,5 +46,10 @@ public class Main {
         } finally {
             System.out.println("Fin del programa.");
         }
+
+        // IGNORAR
+        System.out.println(animal);
+        System.out.println(cat);
+        System.out.println(fish);
     }
 }

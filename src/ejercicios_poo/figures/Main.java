@@ -30,5 +30,8 @@ public class Main {
         } finally {
             System.out.println("Fin del bloque try-catch.");
         }
+
+        // IGNORAR
+        System.out.println(lista);
     }
 }
